@@ -6,7 +6,7 @@ body{
 header{
 background:#dcd6e2;
 color:white;
-padding:20px;
+padding:20 px;
 text-align:center;
 }
 
@@ -16,7 +16,7 @@ justify-content:center;
 list-style:none;
 padding:0;
 background:#dcd6e2;
-margin:0;
+margin:5 px;
 }
 
 nav a{
@@ -25,5 +25,5 @@ color:#166277;
 }
 
 h1{
-  color:darkblue;
+  color:#166277;
 }
