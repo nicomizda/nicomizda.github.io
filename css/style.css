@@ -4,7 +4,7 @@ body{
 }
 
 header{
-background:#333;
+background:#dcd6e2;
 color:white;
 padding:20px;
 text-align:center;
@@ -15,7 +15,7 @@ display:flex;
 justify-content:center;
 list-style:none;
 padding:0;
-background:#eee;
+background:#dcd6e2;
 margin:0;
 }
 
@@ -25,24 +25,7 @@ margin:10px;
 
 nav a{
 text-decoration:none;
-color:#333;
-}
-
-section{
-padding:40px;
-max-width:1000px;
-margin:auto;
-}
-
-.works-grid{
-display:grid;
-grid-template-columns:repeat(3,1fr);
-gap:20px;
-}
-
-.work-card img{
-width:100%;
-height:auto;
+color:#166277;
 }
 
 h1{
