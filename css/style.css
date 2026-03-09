@@ -1,27 +1,33 @@
 body{
-  background:#dcd6e2;
+  margin:0;
   font-family:sans-serif;
+  background:#dcd6e2;
 }
 
 header{
-background:#dcd6e2;
-color:white;
-padding:20 px;
-text-align:center;
+  position:fixed; /*画面上に固定*/
+  top:0;
+  width:100 %;
+  background:#dcd6e2;
+  text-align:center;
+  padding:20　px;
+  z-index:1000;
 }
 
-nav ul{
-display:flex;
-list-style:none;
-background:#dcd6e2;
-}
-
-nav a{
-text-decoration:none;
+header h1{
+margin:0;
+letter-spacing:5 px;
 color:#166277;
 }
 
-h1{
+nav ul{
+  display:flex;
+  list-style:none;
+  background:#dcd6e2;
+}
+
+nav a{
+  text-decoration:none;
   color:#166277;
 }
 
