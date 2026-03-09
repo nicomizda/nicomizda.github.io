@@ -6,10 +6,12 @@ body{
 
 header{
   position:fixed; /*画面上に固定*/
+  display: flex;
+  flex-direction:column;
+  align-items:center;
   top:0;
   width:100 %;
   background:#dcd6e2;
-  text-align:center;
   padding:20　px;
   z-index:1000;
 }
@@ -22,7 +24,6 @@ header h1 a{
 }
 
 nav{
-  display: flex;
   margin-top:10 px;
   justify-content:center;
   gap: 40 px;
