@@ -1,5 +1,4 @@
 body{
-  margin:0;
   font-family:sans-serif;
   background:#dcd6e2;
 }
@@ -9,7 +8,7 @@ header{
   display: flex;
   flex-direction:column;
   align-items:center;
-  width:100 %;
+  width:stretch; /*親要素に合わせる*/
   background:#dcd6e2;
   /*padding:20 px;*/
   z-index:1000;  /*要素の重なりを定義。値が大きいほど手前。*/
