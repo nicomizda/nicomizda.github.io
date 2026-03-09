@@ -17,6 +17,7 @@ header{
 header h1 a{
   margin:0;
   letter-spacing:5 px;
+  text-decoration:none;
   color:#166277;
 }
 
