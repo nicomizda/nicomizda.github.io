@@ -43,6 +43,13 @@ nav a{
   letter-spacing:3px;
 }
 
+p{
+  text-decoration:none;
+  color:#166277;
+  font-size:14px;
+  letter-spacing:3px;
+}
+
 /*カーソルオーバーした時の動き*/
 header h1 a:hover{
   color:#e32e88;
