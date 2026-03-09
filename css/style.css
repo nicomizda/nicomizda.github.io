@@ -9,7 +9,7 @@ header{
   top:0;
   width:100%; 
   /*text-align:center;*/
-  background:#dcd6e2;
+  background:#f4ebfd;
   padding:0px;
   z-index:1000;  /*要素の重なりを定義。値が大きいほど手前。*/
   
