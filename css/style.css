@@ -22,7 +22,10 @@ header h1 a{
 }
 
 nav{
+  display: flex;
   margin-top:10 px;
+  justify-content:center;
+  gap: 40 px;
 }
 
 nav a{
