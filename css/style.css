@@ -24,11 +24,11 @@ header h1 a{
 nav{
   margin-top:10 px;
   justify-content:center;
-  gap: 40 px;
 }
 
 nav a{
   margin:25 px;
+  gap: 40 px;
   text-decoration:none;
   color:#166277;
   font-size:14 px;
