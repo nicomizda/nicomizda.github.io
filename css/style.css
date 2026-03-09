@@ -72,7 +72,7 @@ nav a:hover{
 }
 
 
-/* モーダル */
+/* モーダル背景 */
 #modal{
   display:none;
   position:fixed;
@@ -87,7 +87,9 @@ nav a:hover{
   z-index:2000;
 }
 
+/* モーダル画像 */
 #modal img{
-  max-width:100%;
-  max-height:100%;
+  max-width:90%;
+  max-height:90%; /*小さい画面でも最大表示が画面の90%*/
+  object-fit:contain; /*横断比キープ*/
 }
