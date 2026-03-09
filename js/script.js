@@ -8,10 +8,12 @@ document.getElementById("header").innerHTML = data;
 function openModal(img){
   const modal = document.getElementById("modal");
   const modalImg = document.getElementById("modalImg");
-  modal.style.display = "flex";
   modalImg.src = img.src;
+  modal.classList.add("active");
 }
 
 function closeModal(){
-  document.getElementById("modal").style.display = "none";
+  /*document.getElementById("modal").style.display = "none";*/
+  const modal = document.getElementById("modal");
+  modal.classList.remove("active");
 }
