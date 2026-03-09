@@ -15,24 +15,79 @@ header{
 }
 
 header h1{
-margin:0;
-letter-spacing:5 px;
-color:#166277;
-}
-
-nav ul{
-  display:flex;
-  list-style:none;
-  background:#dcd6e2;
-}
-
-nav a{
-  text-decoration:none;
+  margin:0;
+  letter-spacing:5 px;
   color:#166277;
 }
 
-.img {
+nav{
+  margin-top:10 px;
+}
+
+nav a{
+  margin:0 25 px;
+  text-decoration:none;
+  color:#166277;
+  
+  font-size:14 px;
+  letter-spacing:3 px;
+}
+
+/*カーソルオーバーした時の動き*/
+nav a:hover{
+  opacity:0.6;
+}
+
+/* ギャラリー */
+.gallery{
+  margin-top:140 px;
+  display:grid;
+  grid-template-columns:1 fr 1 fr 1 fr;
+  gap:40 px;
+  padding:60 px;
+}
+
+.item{
+  background:#eae9e3;
+  aspect-ratio:4/3;
+  overflow:hidden;
+  cursor:pointer;
+}
+
+.item.large{
+  grid-column:span 2;
+  aspect-ratio:16/9;
+}
+
+
+.item img{
+  width:100 %;
+  height:100 %;
+  object-fit:cover;
+}
+
+
+/* モーダル */
+#modal{
+  display:none;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100 %;
+  height:100 %;
+  background:rgba (0,0,0,0.8);
+  justify-content:center;
+  align-items:center;
+  z-index:2000;
+}
+
+#modal img{
+  max-width:90 %;
+  max-height:90 %;
+}
+
+/* .img {
   width: 20 px; 
   height: auto;  
-  margin: 0 out; /*画像を中央配置*/
-}
+  margin: 0 out; /*画像を中央配置*/ 
+} */
