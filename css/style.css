@@ -87,8 +87,11 @@ nav a:hover{
   z-index:2000;
 
   /*モーダルふんわり表示のための初期設定*/
-  opacity:1;
-  visibility:visible;
+  opacity:0;
+  visibility:hidden;
+
+  /*アニメーション*/
+  transition:opacity 0.25s ease;
 }
 
 /* モーダルが表示されている状態 */
@@ -97,7 +100,7 @@ nav a:hover{
 
   /*モーダルふんわり表示*/
   opacity:1;
-  isibility:visible;
+  visibility:visible;
 }
 
 /* モーダル画像 */
