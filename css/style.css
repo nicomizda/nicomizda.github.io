@@ -16,8 +16,7 @@ header{
 }
 
 header h1 a{
-  margin:0;
-  letter-spacing:5 px;
+  letter-spacing:10 px;
   text-decoration:none;
   color:#166277;
 }
@@ -32,7 +31,6 @@ nav a{
   margin:25 px;
   text-decoration:none;
   color:#166277;
-  
   font-size:14 px;
   letter-spacing:3 px;
 }
