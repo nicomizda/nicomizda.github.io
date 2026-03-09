@@ -21,5 +21,45 @@
       </nav>
   </header>
 
-  <img src="images/Nico.png" class="img">
+<!-- GALLERY -->
+
+<main class="gallery">
+
+<div class="item">
+<img src="images/Nico.png" onclick="openModal(this)">
+</div>
+
+<div class="item">
+<img src="images/sample2.jpg" onclick="openModal(this)">
+</div>
+
+<div class="item">
+<img src="images/sample3.jpg" onclick="openModal(this)">
+</div>
+
+<div class="item large">
+<img src="images/sample4.jpg" onclick="openModal(this)">
+</div>
+
+<div class="item">
+<img src="images/sample5.jpg" onclick="openModal(this)">
+</div>
+
+<div class="item">
+<img src="images/sample6.jpg" onclick="openModal(this)">
+</div>
+
+</main>
+
+
+<!-- POP UP -->
+
+<div id="modal" onclick="closeModal()">
+<img id="modalImg">
+</div>
+
+
+<script src="script.js"></script>
+
+<--! <img src="images/Nico.png" class="img"> -->
 </body>
