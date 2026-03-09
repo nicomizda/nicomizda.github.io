@@ -75,6 +75,7 @@ nav a:hover{
 /* モーダル背景の設定 */
 #modal{
   display:none;
+  
   position:fixed;
   top:0;
   left:0;
@@ -84,11 +85,19 @@ nav a:hover{
   justify-content:center;
   align-items:center;
   z-index:2000;
+
+  /*モーダルふんわり表示のための初期設定*/
+  opacity:1;
+  visibility:visible;
 }
 
 /* モーダルが表示されている状態 */
 #modal.active{
   display:flex;
+
+  /*モーダルふんわり表示*/
+  opacity:1;
+  isibility:visible;
 }
 
 /* モーダル画像 */
