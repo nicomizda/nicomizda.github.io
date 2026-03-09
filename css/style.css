@@ -1,7 +1,7 @@
 body{
   margin:0;
   font-family:sans-serif;
-  font-weight: 200; 100~900*/ 
+  font-weight: 300; /*100~900*/ 
   background:#f4ebfd;
 }
 
@@ -22,6 +22,8 @@ header{
 header h1 a{
   top:10;
   letter-spacing:10px;
+  font-family:sans-serif;
+  font-weight: 300; /*100~900*/ 
   text-decoration:none;
   color:#166277;
 }
