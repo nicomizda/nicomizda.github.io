@@ -8,13 +8,14 @@ header{
   position:fixed; /*画面上に固定*/
   top:0;
   width:100%; 
-  /* display: flex; 
-  flex-direction:column;
-  align-items:center;*/
-  text-align:center;
+  /*text-align:center;*/
   background:#dcd6e2;
   padding:20px;
   z-index:1000;  /*要素の重なりを定義。値が大きいほど手前。*/
+  
+  display: flex; 
+  flex-direction:column;
+  align-items:center;
 }
 
 header h1 a{
