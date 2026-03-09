@@ -14,7 +14,7 @@ nav ul{
 display:flex;
 justify-content:center;
 list-style:none;
-padding:0;
+padding:10 px;
 background:#dcd6e2;
 margin:5 px;
 }
