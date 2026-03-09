@@ -12,7 +12,7 @@ text-align:center;
 
 nav ul{
 display:flex;
-gap: 20 px;
+justify-content: space-between;
 justify-content:center;
 list-style:none;
 padding:0 px;
