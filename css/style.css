@@ -7,34 +7,34 @@ body{
 header{
   position:fixed; /*画面上に固定*/
   top:0;
-  width:100 %; 
+  width:100%; 
   /* display: flex; 
   flex-direction:column;
   align-items:center;*/
   text-align:center;
   background:#dcd6e2;
-  padding:20 px;
+  padding:20px;
   z-index:1000;  /*要素の重なりを定義。値が大きいほど手前。*/
 }
 
 header h1 a{
-  letter-spacing:10 px;
+  letter-spacing:10px;
   text-decoration:none;
   color:#166277;
 }
 
 nav{
-  margin-top:10 px;
+  margin-top:10px;
   /* justify-content:center; */
 }
 
 nav a{
-  margin:0 25 px; /*上下余白なし、左右25px*/
-  /*gap: 40 px;*/
+  margin:0 25px; /*上下余白なし、左右25px*/
+  /*gap: 40px;*/
   text-decoration:none;
   color:#166277;
-  font-size:14 px;
-  letter-spacing:3 px;
+  font-size:14px;
+  letter-spacing:3px;
 }
 
 /*カーソルオーバーした時の動き*/
@@ -44,11 +44,11 @@ nav a:hover{
 
 /* ギャラリー */
 .gallery{
-  margin-top:500 px;
+  margin-top:500px;
   display:grid;
-  grid-template-columns:1 fr 1 fr 1 fr;
-  gap:40 px;
-  padding:60 px;
+  grid-template-columns:1fr 1fr 1fr;
+  gap:40px;
+  padding:60px;
 }
 
 .item{
@@ -65,8 +65,8 @@ nav a:hover{
 
 
 .item img{
-  width:100 %;
-  height:100 %;
+  width:100%;
+  height:100%;
   object-fit:cover;
 }
 
@@ -77,8 +77,8 @@ nav a:hover{
   position:fixed;
   top:0;
   left:0;
-  width:100 %;
-  height:100 %;
+  width:100%;
+  height:100%;
   background:rgba (0,0,0,0.8); /*背景色透明黒*/
   justify-content:center;
   align-items:center;
@@ -86,6 +86,6 @@ nav a:hover{
 }
 
 #modal img{
-  max-width:200 %;
-  max-height:200 %;
+  max-width:200%;
+  max-height:200%;
 }
