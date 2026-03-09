@@ -72,7 +72,7 @@ nav a:hover{
 }
 
 
-/* モーダル背景 */
+/* モーダル背景の設定 */
 #modal{
   display:none;
   position:fixed;
@@ -86,6 +86,7 @@ nav a:hover{
   z-index:2000;
 }
 
+/* モーダルが表示されている状態 */
 #modal.active{
   display:flex;
 }
