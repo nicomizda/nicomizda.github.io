@@ -26,7 +26,8 @@ h1{
   color:#166277;
 }
 
-img {
-  max-width: 100 %; /* 最大幅を親要素の100%に制限 */
-  height: auto;    /* 比率を維持 */
+.img {
+  width: 200 px; 
+  height: auto;  
+  margin: 0 out; /*画像を中央配置*/
 }
