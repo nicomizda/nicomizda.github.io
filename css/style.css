@@ -139,7 +139,7 @@ nav a:hover{
   align-items:center;
 }*/
 
-img{
+.storyboards img{
   max-width:90%;
   max-height:90%;
   object-fit:cover;
