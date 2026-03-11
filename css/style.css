@@ -132,6 +132,8 @@ nav a:hover{
 
 /* storyboard */
 .storyboards{
+  margin-top:100px;
+  padding:60px;
   cursor:pointer;
 }
 
