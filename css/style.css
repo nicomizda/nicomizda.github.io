@@ -129,12 +129,3 @@ nav a:hover{
   max-height:90%; /*小さい画面でも最大表示が画面の90%*/
   object-fit:contain; /*横断比キープ*/
 }
-
-/* storyboards */
-.storyboards{
-  margin-top:100px;
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(600px,1fr));
-  gap:30px;
-  padding:60px;
-}
