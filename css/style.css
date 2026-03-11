@@ -131,6 +131,10 @@ nav a:hover{
 }
 
 /* storyboard */
+.storyboards{
+  cursor:pointer;
+}
+
 .storyboards img{
   max-width:90%;
   max-height:90%;
