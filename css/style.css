@@ -129,3 +129,10 @@ nav a:hover{
   max-height:90%; /*小さい画面でも最大表示が画面の90%*/
   object-fit:contain; /*横断比キープ*/
 }
+
+/* storyboard */
+.storyboards img{
+  max-width:90%;
+  max-height:90%;
+  object-fit:cover;
+}
