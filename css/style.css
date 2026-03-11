@@ -131,16 +131,17 @@ nav a:hover{
 }
 
 /* storyboard */
-.storyboards{
+/*.storyboards{
   margin-top:100px;
   cursor:pointer;
   display:flex;
   justify-content:center;
   align-items:center;
-}
+}*/
 
 .storyboards img{
   max-width:90%;
   max-height:90%;
   object-fit:cover;
+  padding:60px;
 }
