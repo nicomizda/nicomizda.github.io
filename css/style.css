@@ -85,7 +85,7 @@ nav a:hover{
   background:#f4ebfd;
   color:166277;
   text-align:center;
-  padding:20px;
+  padding:10px 10px;
 }
 
 .home .site-footer{
@@ -97,9 +97,8 @@ nav a:hover{
 .site-footer p{
   text-decoration:none;
   color:#166277;
-  font-size:14px;
+  font-size:10px;
   letter-spacing:3px;
-  padding-left:30px;
 }
 
 
