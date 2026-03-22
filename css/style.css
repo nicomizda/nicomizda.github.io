@@ -140,20 +140,3 @@ nav a:hover{
   max-height:90%;
   object-fit:contain;
 }
-
-/* storyboard */
-/*.storyboards{
-  margin-top:100px;
-  cursor:pointer;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-}*/
-
-.storyboards img{
-  margin-top:100px;
-  max-width:90%;
-  max-height:90%;
-  object-fit:cover;
-  padding:60px;
-}
