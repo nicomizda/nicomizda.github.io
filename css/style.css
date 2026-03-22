@@ -144,7 +144,7 @@ nav a:hover{
 }
 
 /*STORYBOARD PAGE THUMBNAILS*/
-storyboard_gallery{
+.storyboard_gallery{
   margin-top:100px;
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(600px,1fr));
