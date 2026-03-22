@@ -31,11 +31,10 @@ header h1 a{
 
 nav{
   margin-top:0px;
-  margin-bottom:15px;
+  margin-bottom:20px;
   /* justify-content:center; */
 }
 
-/*MENU*/
 nav a{
   margin:0 25px; /*上下余白なし、左右25px*/
   text-decoration:none;
