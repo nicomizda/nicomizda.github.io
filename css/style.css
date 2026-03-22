@@ -166,7 +166,7 @@ work_title h1{
   font-weight: 300; /*100~900*/ 
   text-decoration:none;
   letter-spacing:3px;
-  
+  align-items:center;
   z-index:1000;
 }
 
