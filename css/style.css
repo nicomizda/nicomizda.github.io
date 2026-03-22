@@ -154,6 +154,11 @@ nav a:hover{
 }
 
 /*EACH STORYBOARD PAGE*/
+.storyboard_eachpage{
+  margin-top:100px;
+  gap:30px;
+}
+
 .work_title{
   position:sticky;
   top:130px; /* ヘッダーの高さに合わせる */
