@@ -1,6 +1,6 @@
 /*FOR HEADER*/
 /* HEADER読み込み */
-/*fetch("./component/header.html")
+fetch("/component/header.html")
   .then(response => response.text())
   .then(data => {
     const header = document.getElementById("header");
@@ -9,10 +9,10 @@
     } else {
       console.error("header要素が見つかりません");
     }
-  }); */
+  });
 
 /* FOOTER読み込み */
-/*fetch("./component/footer.html")
+fetch("/component/footer.html")
   .then(response => response.text())
   .then(data => {
     const footer = document.getElementById("footer");
@@ -21,9 +21,9 @@
     } else {
       console.error("footer要素が見つかりません");
     }
-  }); */
+  }); 
 
-/*　旧ヘッダーフッター読み込み */
+/*　旧ヘッダーフッター読み込み 
 fetch("/component/header.html")
   .then(response => response.text())
   .then(data => {
@@ -34,7 +34,7 @@ fetch("/component/footer.html")
   .then(response => response.text())
   .then(data => {
   document.getElementById("footer").innerHTML = data;
-});
+});*/
 
 function openModal(img){
   const modal = document.getElementById("modal");
