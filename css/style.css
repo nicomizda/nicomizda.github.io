@@ -158,11 +158,12 @@ nav a:hover{
   position:sticky;
   top:130px; /* ヘッダーの高さに合わせる */
 
-  background:#111;
-  color:white;
-
+  background:#f4ebfd;
+  color:#166277;
   padding:20px;
   font-size:24px;
-
+  font-family:sans-serif;
   z-index:1000;
+
+  align-items:center;
 }
