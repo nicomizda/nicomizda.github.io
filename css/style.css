@@ -23,6 +23,10 @@ p{
   padding-left:30px;
 }
 
+.about p{
+  margin-top:200px;
+}
+
 /*HEADER*/
 header{
   position:fixed; /*画面上に固定*/
