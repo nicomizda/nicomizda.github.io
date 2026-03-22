@@ -178,11 +178,11 @@ work_title h1{
   padding:60px;
 }
 
-.container{
+/*.container{
   display:grid;
   place-items:center;
   gap:30px;
   max-width:90%;
   max-height:90%;
   object-fit:contain;
-}
+}*/
