@@ -132,7 +132,7 @@ nav a:hover{
 
 /*画面いっぱいの画像幅*/
 .image_wide{
-  cursor:pointer;
+  /*cursor:pointer;*/
   display:flex;
 
   margin-top:100px;
