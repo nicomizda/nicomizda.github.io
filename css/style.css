@@ -123,6 +123,8 @@ nav a:hover{
 .item{
   overflow:hidden;
   cursor:pointer;
+  
+  aspect-ratio:1/1;
 }
 
 .item.large{
