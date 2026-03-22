@@ -139,6 +139,8 @@ nav a:hover{
   max-width:90%;
   max-height:90%;
   object-fit:contain;
+
+  gap:30px;
 }
 
 
