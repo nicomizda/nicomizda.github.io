@@ -10,7 +10,6 @@ header{
   position:fixed; /*画面上に固定*/
   top:0;
   width:100%; 
-  /*text-align:center;*/
   background:#f4ebfd;
   padding:0px;
   z-index:1000;  /*要素の重なりを定義。値が大きいほど手前。*/
