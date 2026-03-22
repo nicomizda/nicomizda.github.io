@@ -14,17 +14,17 @@ main{
   margin-top:200px; /*ヘッダー高さ分*/
 }
 
-/*基本メモ用*/
 p{
   text-decoration:none;
   color:#166277;
   font-size:14px;
   letter-spacing:3px;
-  padding-left:30px;
 }
 
-.about p{
+/*header下のメモ用*/
+.announce{
   margin-top:200px;
+  padding-left:30px;
 }
 
 /*HEADER*/
