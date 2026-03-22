@@ -215,7 +215,7 @@ p{
 .storyboard_eachpage{
   margin-top:100px;
   gap:30px;
-  padding:60px;
+  align-items:center;
 }
 
 /*.container{
