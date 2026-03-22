@@ -134,6 +134,8 @@ nav a:hover{
 .image_wide{
   /*cursor:pointer;*/
   display:flex;
+  display:block;
+  margin:0 auto;
 
   margin-top:100px;
   max-width:90%;
