@@ -130,6 +130,15 @@ nav a:hover{
   object-fit:contain; /*横断比キープ*/
 }
 
+/*画面いっぱいの画像幅*/
+.image_wide{
+  margin-top:150px;
+  cursor:pointer;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
 /* storyboard */
 /*.storyboards{
   margin-top:100px;
