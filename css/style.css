@@ -82,7 +82,12 @@ p{
   padding-left:30px;
 }
 
-/* HOME GALLERY */
+
+/* HOME */
+.home main{
+  padding-bottom:80px; /* フッターの高さ分 */
+}
+
 .gallery{
   margin-top:70px;
   display:grid;
