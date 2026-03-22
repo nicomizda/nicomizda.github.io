@@ -1,5 +1,6 @@
 /*FOR HEADER*/
 /* HEADER読み込み */
+document.addEventListener('DOMContentLoaded', function() {
 fetch("/component/header.html")
   .then(response => response.text())
   .then(data => {
@@ -10,8 +11,10 @@ fetch("/component/header.html")
       console.error("header要素が見つかりません");
     }
   });
+});
 
 /* FOOTER読み込み */
+document.addEventListener('DOMContentLoaded', function() {
 fetch("/component/footer.html")
   .then(response => response.text())
   .then(data => {
@@ -22,6 +25,7 @@ fetch("/component/footer.html")
       console.error("footer要素が見つかりません");
     }
   }); 
+});
 
 /*　旧ヘッダーフッター読み込み 
 fetch("/component/header.html")
