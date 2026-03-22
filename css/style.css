@@ -140,6 +140,7 @@ nav a:hover{
 }
 
 
+/*STORYBOARD*/
 /*STORYBOARD PAGE THUMBNAILS*/
 .storyboard_gallery{
   margin-top:100px;
@@ -150,12 +151,8 @@ nav a:hover{
   padding:60px;
 }
 
-/*EACH STORYBOARD PAGE*/
-.storyboard_eachpage{
-  margin-top:100px;
-  gap:30px;
-}
 
+/*storyboard作品それぞれのページ設定*/
 .work_title{
   position:sticky;
   top:130px; /* ヘッダーの高さに合わせる */
@@ -171,4 +168,10 @@ nav a:hover{
   z-index:1000;
 
   align-items:center;
+}
+
+.storyboard_eachpage{
+  margin-top:100px;
+  gap:30px;
+  padding:60px;
 }
