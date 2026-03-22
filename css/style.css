@@ -11,6 +11,7 @@ body{
 
 main{
   flex:1;
+  margin-top:200px; /*ヘッダー高さ分*/
 }
 
 /*基本メモ用*/
@@ -82,16 +83,10 @@ nav a:hover{
 .site-footer{
   width:100%;
   background:#f4ebfd;
-  color:166277;
+  color:#166277;
   text-align:center;
   padding:10px 10px;
 }
-
-/*.home .site-footer{
-  position:fixed;
-  bottom:0;
-  left:0;
-}*/
 
 .site-footer p{
   text-decoration:none;
@@ -102,8 +97,15 @@ nav a:hover{
 
 
 /* HOME */
+.home{
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
+}
+
 .home main{
-  padding-bottom:80px; /* フッターの高さ分 */
+  flex:1;
+  /*padding-bottom:80px; /* フッターの高さ分 */*/
 }
 
 .gallery{
