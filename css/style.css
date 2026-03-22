@@ -133,6 +133,10 @@ nav a:hover{
 /*画面いっぱいの画像幅*/
 .image_wide{
   margin-top:150px;
+  max-width:90%;
+  max-height:90%;
+  object-fit:contain;
+  
   cursor:pointer;
   display:flex;
   justify-content:center;
