@@ -156,7 +156,7 @@ nav a:hover{
 
 
 /*storyboard作品それぞれのページ設定*/
-.work_title{
+work_title h1{
   position:sticky;
   top:130px; /* ヘッダーの高さに合わせる */
 
