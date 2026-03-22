@@ -27,6 +27,7 @@ header h1 a{
   font-weight: 300; /*100~900*/ 
   text-decoration:none;
   color:#166277;
+  font-size:25px;
 }
 
 nav{
