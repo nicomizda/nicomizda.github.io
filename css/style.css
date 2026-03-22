@@ -45,16 +45,6 @@ nav a{
   letter-spacing:3px;
 }
 
-/*基本メモ用*/
-p{
-  margin-top:200px;
-  text-decoration:none;
-  color:#166277;
-  font-size:14px;
-  letter-spacing:3px;
-  padding-left:30px;
-}
-
 /*カーソルオーバーした時の動き*/
 header h1 a:hover{
   color:#e32e88;
@@ -64,6 +54,28 @@ header h1 a:hover{
 nav a:hover{
   color:#e32e88;
   /*opacity:0.5;*/
+}
+
+
+/*FOOTER*/
+footer{
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  background:#f4ebfd;
+  z-index:1000;
+}
+
+
+/*基本メモ用*/
+p{
+  margin-top:200px;
+  text-decoration:none;
+  color:#166277;
+  font-size:14px;
+  letter-spacing:3px;
+  padding-left:30px;
 }
 
 /* HOME GALLERY */
@@ -188,3 +200,4 @@ nav a:hover{
   max-height:90%;
   object-fit:contain;
 }*/
+
