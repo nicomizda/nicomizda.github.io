@@ -5,6 +5,7 @@ body{
   background:#f4ebfd;
 }
 
+/*HEADER*/
 header{
   position:fixed; /*画面上に固定*/
   top:0;
@@ -34,11 +35,12 @@ nav{
   /* justify-content:center; */
 }
 
+/*MENU*/
 nav a{
   margin:0 25px; /*上下余白なし、左右25px*/
   text-decoration:none;
   color:#166277;
-  font-size:14px;
+  font-size:11px;
   letter-spacing:3px;
 }
 
@@ -61,7 +63,7 @@ nav a:hover{
   /*opacity:0.5;*/
 }
 
-/* ギャラリー */
+/* HOME GALLERY */
 .gallery{
   margin-top:100px;
   display:grid;
