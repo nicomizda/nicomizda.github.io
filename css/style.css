@@ -20,7 +20,9 @@ header{
 }
 
 header h1 a{
-  top:30;
+  margin-top:30px;
+  margin-bottom:20px;
+  
   letter-spacing:10px;
   font-family:sans-serif;
   font-weight: 300; /*100~900*/ 
@@ -66,7 +68,7 @@ nav a:hover{
 
 /* HOME GALLERY */
 .gallery{
-  margin-top:100px;
+  margin-top:70px;
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
   /*grid-template-columns:1fr 1fr 1fr;*/
