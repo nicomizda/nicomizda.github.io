@@ -167,6 +167,8 @@ nav a:hover{
   color:#166277;
   font-size:24px;
   font-family:sans-serif;
+  font-weight: 300; /*100~900*/ 
+  text-decoration:none;
   z-index:1000;
 
   align-items:center;
