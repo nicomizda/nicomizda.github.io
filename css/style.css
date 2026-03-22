@@ -178,3 +178,10 @@ work_title h1{
   gap:30px;
   padding:60px;
 }
+
+.container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
