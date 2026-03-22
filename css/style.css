@@ -153,3 +153,16 @@ nav a:hover{
   padding:60px;
 }
 
+/*EACH STORYBOARD PAGE*/
+.work_title{
+  position:sticky;
+  top:100px; /* ヘッダーの高さに合わせる */
+
+  background:#111;
+  color:white;
+
+  padding:20px;
+  font-size:24px;
+
+  z-index:1000;
+}
