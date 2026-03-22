@@ -13,6 +13,16 @@ main{
   flex:1;
 }
 
+/*基本メモ用*/
+p{
+  margin-top:200px;
+  text-decoration:none;
+  color:#166277;
+  font-size:14px;
+  letter-spacing:3px;
+  padding-left:30px;
+}
+
 /*HEADER*/
 header{
   position:fixed; /*画面上に固定*/
@@ -81,17 +91,6 @@ nav a:hover{
 }
 
 .site-footer p{
-  text-decoration:none;
-  color:#166277;
-  font-size:14px;
-  letter-spacing:3px;
-  padding-left:30px;
-}
-
-
-/*基本メモ用*/
-p{
-  margin-top:200px;
   text-decoration:none;
   color:#166277;
   font-size:14px;
