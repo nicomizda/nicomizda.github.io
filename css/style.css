@@ -81,9 +81,9 @@ nav a:hover{
 
 /*FOOTER*/
 .site-footer{
-  position:sticky;
+  /*position:sticky;
   bottom:0;
-  width:100%;
+  width:100%;*/
   
   background:#f4ebfd;
   color:#166277;
