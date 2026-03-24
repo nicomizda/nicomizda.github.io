@@ -1,7 +1,7 @@
 /*STORYBOARD*/
 
 /*STORYBOARD PAGE THUMBNAILS*/
-.storyboard_container{
+.storyboard-container{
   /*margin-top:100px;*/
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
@@ -55,7 +55,7 @@
 
 
 /*storyboard作品それぞれのページ設定*/
-.work_title{
+.work-title{
   position:sticky;
   top:130px; /* ヘッダーの高さに合わせる */
 
@@ -69,7 +69,7 @@
   z-index:1000;
 }
 
-.storyboard_eachpage{
+.storyboard-eachpage{
   margin-top:60px;
   gap:30px;
   align-items:center;
