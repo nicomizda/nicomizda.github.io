@@ -32,14 +32,14 @@
 
 .sns-btn{
   padding:10px 20px;
-  border:1px solid #333;
+  border:1px solid #166277;
   text-decoration:none;
-  color:#333;
+  color:#166277;
   font-size:14px;
   transition:0.3s;
 }
 
 .sns-btn:hover{
-  background:#333;
-  color:white;
+  background:#e32e88;
+  color:#166277;
 }
