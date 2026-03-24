@@ -13,8 +13,8 @@
 .image-card {
   position: relative; /* 子要素を重ねる基準 */
   width: 300px;
-  grid-column:span 2;
-  aspect-ratio:1.85/1;
+  /*grid-column:span 2;
+  aspect-ratio:1.85/1;*/
 }
 
 .image-card img {
