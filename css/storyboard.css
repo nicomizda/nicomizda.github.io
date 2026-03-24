@@ -1,8 +1,8 @@
 /*STORYBOARD*/
 
 /*STORYBOARD PAGE THUMBNAILS*/
-.storyboard_gallery{
-  margin-top:100px;
+.storyboard_container{
+  /*margin-top:100px;*/
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
   /*grid-template-columns:1fr 1fr 1fr;*/
