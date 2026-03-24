@@ -1,0 +1,10 @@
+/*CONCEPT*/
+
+.concept-container{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  gap:60px;
+  padding:0px 40px;
+}
