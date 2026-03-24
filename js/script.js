@@ -1,4 +1,3 @@
-/*FOR HEADER*/
 /* HEADER読み込み */
 document.addEventListener('DOMContentLoaded', function() {
 fetch("/component/header.html")
