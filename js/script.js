@@ -57,3 +57,20 @@ function closeModal(){
     modal.classList.remove("active");
   }
 }
+
+//作品ページヘッダー
+fetch("/component/work-header.html")
+  .then(response => response.text())
+  .then(data => {
+    const container = document.getElementById("work-header");
+    if (container) {
+      container.innerHTML = data;
+
+      // タイトルを差し込む
+      const title = container.dataset.title;
+      const titleEl = container.querySelector(".work-title");
+      if (titleEl) {
+        titleEl.textContent = title;
+      }
+    }
+  });
