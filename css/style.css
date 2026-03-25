@@ -152,7 +152,6 @@ nav a:hover{
 .grid{
   display:grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
   gap:20px;
 }
 
@@ -165,7 +164,7 @@ nav a:hover{
 
 /* アスペクト比 */
 .wide{
-  aspect-ratio: 1.85 / 1;
+  aspect-ratio: 2 / 1;
   grid-column:span 2;
 }
 
