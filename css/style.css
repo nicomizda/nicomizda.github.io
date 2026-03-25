@@ -147,16 +147,6 @@ nav a:hover{
   padding:60px;
 }
 
-/*.item{
-  overflow:hidden;
-  cursor:pointer;
-  /*aspect-ratio:1/1;*/
-}*/
-
-/*.item.large{
-  grid-column:span 2;
-  aspect-ratio:1.85/1;
-}*/
 
 /* 共通グリッド 1.85:1 1:1 */
 .grid{
