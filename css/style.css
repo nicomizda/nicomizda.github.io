@@ -191,7 +191,7 @@ nav a:hover{
 
 /* 黒い半透明レイヤー */
 .overlay {
-  position: absolute;
+  /*position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -200,7 +200,18 @@ nav a:hover{
   background: rgba(0, 0, 0, 0.8);
   
   opacity: 0; /* 初期は非表示 */
-  transition: 0.3s ease;
+  /*transition: 0.3s ease;*/
+
+  position:absolute;
+  inset:0;
+  background:rgba(0,0,0,0.5);
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  opacity:0;
+  transition:0.3s;
 }
 
 /* ホバーで表示 */
