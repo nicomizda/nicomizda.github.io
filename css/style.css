@@ -142,7 +142,6 @@ nav a:hover{
 .home-container{
   margin-top:60px;
   display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
   gap:30px;
   padding:60px;
 }
@@ -151,7 +150,8 @@ nav a:hover{
 /* 共通グリッド 1.85:1 1:1 */
 .grid{
   display:grid;
-  grid-template-columns: repeat(4, 1fr);
+  /*grid-template-columns: repeat(4, 1fr);*/
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
   gap:20px;
 }
 
@@ -160,11 +160,12 @@ nav a:hover{
   position:relative;
   overflow:hidden;
   cursor:pointer;
+  height: 100%;
 }
 
 /* アスペクト比 */
 .wide{
-  aspect-ratio: 2 / 1;
+  aspect-ratio: 1.85 / 1;
   grid-column:span 2;
 }
 
