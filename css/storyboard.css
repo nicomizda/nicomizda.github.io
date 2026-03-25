@@ -1,7 +1,16 @@
 /*STORYBOARD*/
 
-/*STORYBOARD PAGE THUMBNAILS*/
+.storyboard{
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
+}
 
+.storyboard main{
+  flex:1;
+}
+
+/*STORYBOARD PAGE THUMBNAILS*/
 .storyboard-container{
   margin-top:60px;
   display:grid;
