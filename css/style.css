@@ -165,12 +165,12 @@ nav a:hover{
 
 /* アスペクト比 */
 .wide{
-  aspect-ratio: 1.85 / 1;
+  /*aspect-ratio: 1.85 / 1;*/
   grid-column:span 2;
 }
 
 .square{
-  /*aspect-ratio: 1 / 1;*/
+  aspect-ratio: 1 / 1;
   grid-column:span 1;
 }
 
