@@ -139,8 +139,7 @@ nav a:hover{
   /*padding-bottom:80px; /* フッターの高さ分 */*/
 }
 
-/*GALLERY*/
-/*.gallery{
+.home-container{
   margin-top:60px;
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
@@ -148,7 +147,7 @@ nav a:hover{
   padding:60px;
 }
 
-.item{
+/*.item{
   overflow:hidden;
   cursor:pointer;
   /*aspect-ratio:1/1;*/
@@ -165,7 +164,7 @@ nav a:hover{
   object-fit:cover;
 }*/
 
-/* グリッド */
+/* 共通グリッド 1.85:1 1:1 */
 .grid{
   display:grid;
   grid-template-columns: repeat(3, 1fr);
