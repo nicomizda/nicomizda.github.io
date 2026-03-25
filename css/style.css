@@ -140,11 +140,10 @@ nav a:hover{
 }
 
 /*GALLERY*/
-.gallery{
+/*.gallery{
   margin-top:60px;
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-  /*grid-template-columns:1fr 1fr 1fr;*/
   gap:30px;
   padding:60px;
 }
@@ -153,9 +152,9 @@ nav a:hover{
   overflow:hidden;
   cursor:pointer;
   /*aspect-ratio:1/1;*/
-}
+}*/
 
-.item.large{
+/*.item.large{
   grid-column:span 2;
   aspect-ratio:1.85/1;
 }
@@ -164,8 +163,37 @@ nav a:hover{
   width:100%;
   height:100%;
   object-fit:cover;
+}*/
+
+/* グリッド */
+.grid{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:20px;
 }
 
+/* 共通 */
+.item{
+  position:relative;
+  overflow:hidden;
+}
+
+/* アスペクト比 */
+.wide{
+  aspect-ratio: 1.85 / 1;
+}
+
+.square{
+  aspect-ratio: 1 / 1;
+}
+
+/* 画像 */
+.item img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+}
 
 /* 画像ホバー設定 */
 .image-card {
