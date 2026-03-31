@@ -117,8 +117,8 @@ nav a:hover{
 
 /* 説明文 */
 .work-description {
-  margin-top: 10px;
-  font-size: 10px;
+  margin-top: 8px;
+  font-size: 13px;
   max-width: 500px;
 }
 
@@ -302,7 +302,7 @@ nav a:hover{
 
 /*画面いっぱいの画像幅*/
 .image_wide{
-  /*cursor:pointer;*/
+  cursor:pointer;
   display:block;
   margin:0 auto;
 
