@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/storyboard.css">
+</head>
+
+<body>
+  
+  <!-- FIXED HEADER -->
+  <!-- <div id="header"></div> -->
+  <div id="work-header"
+     data-title="Hot, Wicked"
+     data-description="Three story of Hot and Wicked."
+     data-prev="/storyboard/index.html"
+     data-next="/storyboard1.html">
+  </div>
+  
+  <script src="../js/script.js"></script> <!-- ../一階層上のフォルダへ移動 -->
+  
+  <!-- STORYBOARDS -->
+  <main class="storyboard-eachpage">
+    <img src="../images/" class="image_wide" onclick="openModal(this)">
+    <img src="../images/" class="image_wide" onclick="openModal(this)">
+    <img src="../images/" class="image_wide" onclick="openModal(this)">
+    <img src="../images/" class="image_wide" onclick="openModal(this)">
+  </main>
+
+  <!-- POP UP --> 
+  <div id="modal" onclick="closeModal()">
+  <img id="modalImg">
+  </div>
+  
+  <div id="footer"></div>
+  
+</body>
