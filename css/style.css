@@ -78,6 +78,10 @@ nav a:hover{
   /*opacity:0.5;*/
 }
 
+.header-menu a.active {
+  color: #e32e88;
+}
+
 /* WORK HEADER */
 .work-header{
   position:fixed;
