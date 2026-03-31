@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/concept.css">
+</head>
+
+<body>
+  
+  <!-- FIXED HEADER -->
+  <!-- <div id="header"></div> -->
+  <div id="work-header"
+     data-title="Spider Land"
+     data-description="A land covered in spider webs. "
+     data-prev="/conceptart/index.html"
+     data-next="/conceptart2.html">
+  </div>
+  <script src="../js/script.js"></script> <!-- ../一階層上のフォルダへ移動 -->
+  
+  <!-- STORYBOARDS -->
+  <main class="storyboard-eachpage">
+    <div class="gallery">
+      <img src="../images/BecomeOne-p1_line.png" class="image_wide" onclick="openModal(this)">
+      <img src="../images/BecomeOne-p2_line.png" class="image_wide" onclick="openModal(this)">
+      <img src="../images/BecomeOne-p3_line.png" class="image_wide" onclick="openModal(this)">
+      <img src="../images/BecomeOne-p4_line.png" class="image_wide" onclick="openModal(this)">
+      <img src="../images/BecomeOne-p5_line.png" class="image_wide" onclick="openModal(this)">
+      <img src="../images/BecomeOne-extrasketch.png" class="image_wide" onclick="openModal(this)">
+    </div>  
+  </main>
+
+  <!-- POP UP --> 
+  <div id="modal" onclick="closeModal()">
+    <img id="modalImg">
+  </div>
+  
+  <div id="footer"></div>
+  
+</body>
