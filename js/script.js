@@ -84,5 +84,4 @@ fetch("/component/work-header.html")
       container.querySelector(".nav-left").href = prev;
       container.querySelector(".nav-right").href = next;
       }
-    }
-  });
+    });
