@@ -111,6 +111,7 @@ nav a:hover{
 /* タイトル */
 .work-title {
   font-size: 24px;
+  font-weight: 300;
   margin: 0;
 }
 
@@ -134,12 +135,12 @@ nav a:hover{
 
 /* 左 */
 .nav-left {
-  left: 40px;
+  left: 50px;
 }
 
 /* 右 */
 .nav-right {
-  right: 40px;
+  right: 50px;
 }
 
 
