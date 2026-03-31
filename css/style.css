@@ -110,7 +110,7 @@ nav a:hover{
 
 /* タイトル */
 .work-title {
-  font-size: 24px;
+  font-size: 23px;
   font-weight: 300;
   margin: 0;
 }
@@ -118,7 +118,7 @@ nav a:hover{
 /* 説明文 */
 .work-description {
   margin-top: 10px;
-  font-size: 14px;
+  font-size: 10px;
   max-width: 500px;
 }
 
