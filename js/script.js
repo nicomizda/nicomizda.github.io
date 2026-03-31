@@ -85,3 +85,12 @@ fetch("/component/work-header.html")
       container.querySelector(".nav-right").href = next;
       }
     });
+
+//ヘッダーメニュー色付け
+const links = document.querySelectorAll('.header-menu a');
+
+links.forEach(link => {
+  if (link.href === window.location.href) {
+    link.classList.add('active');
+  }
+});
