@@ -63,13 +63,26 @@ fetch("/component/work-header.html")
   .then(data => {
     const container = document.getElementById("work-header");
     if (container) {
+      
+      // HTMLを読み込む
       container.innerHTML = data;
 
-      // タイトルを差し込む
+      // データ取得
       const title = container.dataset.title;
-      const titleEl = container.querySelector(".work-title");
+      
+      /*const titleEl = container.querySelector(".work-title");
       if (titleEl) {
-        titleEl.textContent = title;
+        titleEl.textContent = title;*/
+        
+      const desc = container.dataset.description;
+      const prev = container.dataset.prev;
+      const next = container.dataset.next;
+
+      // 要素に反映
+      container.querySelector(".work-title").textContent = title;
+      container.querySelector(".work-description").textContent = desc;
+      container.querySelector(".nav-left").href = prev;
+      container.querySelector(".nav-right").href = next;
       }
     }
   });
