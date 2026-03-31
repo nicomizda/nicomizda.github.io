@@ -8,7 +8,8 @@
 }
 
 .storyboard-eachpage{
-  margin-top:60px;
+  margin-top:80px;
   gap:30px;
   align-items:center;
+  padding:60px;
 }
