@@ -89,8 +89,18 @@ fetch("/component/work-header.html")
 //ヘッダーメニュー色付け
 const links = document.querySelectorAll('.header-menu a');
 
+// 現在のURL
+const current = window.location.pathname;
+
 links.forEach(link => {
-  if (link.href === window.location.href) {
+  const linkPath = new URL(link.href).pathname;
+
+  // ホーム（index.html or /）は除外
+  if (current === "/" || current.includes("index.html")) {
+    return;
+  }
+
+  if (linkPath === current) {
     link.classList.add('active');
   }
 });
