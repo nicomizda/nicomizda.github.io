@@ -295,6 +295,11 @@ nav a:hover{
   object-fit:contain; /*横断比キープ*/
 }
 
+/* 共通ギャラリー */
+.gallery{
+
+}
+
 /*画面いっぱいの画像幅*/
 .image_wide{
   /*cursor:pointer;*/
