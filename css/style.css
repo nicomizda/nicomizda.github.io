@@ -151,7 +151,7 @@ nav a:hover{
   right: 50px;
 }
 
-.nav-btn a:hover{
+.nav-btn:hover{
   color:#e32e88;
 }
 
