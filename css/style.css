@@ -6,7 +6,7 @@ body{
   margin:0;
   font-family:sans-serif;
   font-weight: 300; /*100~900*/ 
-  background:#f4ebfd;
+  background:#dcd6e2;
 }
 
 main{
@@ -45,7 +45,7 @@ header{
 
 header h1 a{
   margin-top:30px;
-  margin-bottom:20px;
+  margin-bottom:16px;
   
   letter-spacing:10px;
   font-family:sans-serif;
@@ -57,7 +57,7 @@ header h1 a{
 
 nav{
   margin-top:0px;
-  margin-bottom:20px;
+  margin-bottom:16px;
   /* justify-content:center; */
 }
 
@@ -166,6 +166,7 @@ nav a:hover{
   color:#166277;
   text-align:center;
   padding:10px 10px;
+  box-shadow: 0px -1px 4px 0px gray;
 }
 
 .site-footer p{
