@@ -39,6 +39,27 @@ fetch("/component/footer.html")
   document.getElementById("footer").innerHTML = data;
 });*/
 
+
+function openModal(item){
+  const modal = document.getElementById("modal");
+  const modalImg = document.getElementById("modalImg");
+
+  if (modal && modalImg) {
+
+    // data-preview を取得
+    const previewSrc = item.dataset.preview;
+
+    // preview画像を表示
+    modalImg.src = previewSrc;
+
+    modal.classList.add("active");
+
+  } else {
+    console.error("modal要素が見つかりません");
+  }
+}
+
+/*
 function openModal(img){
   const modal = document.getElementById("modal");
   const modalImg = document.getElementById("modalImg");
@@ -49,6 +70,7 @@ function openModal(img){
     console.error("modal要素が見つかりません");
   }
 }
+*/
 
 function closeModal(){
   const modal = document.getElementById("modal");
