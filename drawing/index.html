@@ -16,21 +16,27 @@
   <main class="drawing-container">
     
     <div class="grid">
-      <div class="item wide" onclick="openModal(this.querySelector('img'))">
+      <div class="item rectangle"
+        data-preview="../images/scene01_03.png"
+        onclick="openModal(this)">
         <img src="../images/scene01_03.png">
         <div class="overlay">        
           <p class="title">Scene01</p>
         </div>
       </div>
       
-      <div class="item wide" onclick="openModal(this.querySelector('img'))">
+      <div class="item rectangle" 
+        data-preview="../images/butterfly_original.png"
+        onclick="openModal(this)">
         <img src="../images/butterfly_original.png">
         <div class="overlay">        
           <p class="title">Untitled</p>
         </div>
       </div>
 
-      <div class="item rectangle" onclick="openModal(this.querySelector('img'))">
+      <div class="item rectangle" 
+        data-preview="../images/chinatown.png"
+        onclick="openModal(this)">
         <img src="../images/chinatown.png">
         <div class="overlay">        
           <p class="title">Untitled</p>
